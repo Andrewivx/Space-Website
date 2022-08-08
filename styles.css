@@ -1,0 +1,159 @@
+/*
+  Andrew Yu
+  4/12/2022
+  Section AH Marina and Allan
+  This is a styles.css that applies styling to the space.html file
+  it gives it a really cool space themed background and text, as well
+  as implments boxes and colors behind different blocks of tags, finally
+  helps to create a interactive jokes page
+*/
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+head, body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+  font-family: 'Coda Caption', sans-serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0;
+  text-shadow: 20px 15px 20px #551755;
+}
+
+header {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header, #jokes h2, #jokes > p {
+  color: #E0DBD7;
+}
+
+header, #jokes article {
+  flex-direction: column;
+}
+
+blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+footer {
+  width: 100%;
+}
+
+header, footer p, #jokes h2, #jokes > p, #intro h2, #facts h2 {
+  text-align: center;
+}
+
+#intro, #facts, #jokes {
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro h2, #facts h2, #jokes h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#intro, #facts {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: solid #551755;
+  border-width: 15px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#intro, #facts, footer {
+  background-color: #E0DBD7;
+}
+
+#intro p, ol > li {
+  font-size: 20px;
+}
+
+#intro :first-of-type img {
+  height: 100%;
+  width: 25vw;
+  border-radius: 10%;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#facts > p, #jokes article p {
+  font-size: 24px;
+}
+
+a {
+  color: #FFA605;
+}
+
+a:visited {
+  color: #1B505F;
+}
+
+#jokes section {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#jokes article {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #9B590D;
+  opacity: 80%;
+  width: 300px;
+  height: 400px;
+}
+
+#jokes article, footer p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+article img {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+}
+
+#jokes article p {
+  text-align: left;
+}
+
+span {
+  font-size: 28px;
+}
+
+article:hover .answer {
+  display: inline;
+  color: #191819;
+}
+
+.answer {
+  display: none;
+}
+
+hr {
+  width: 60%;
+}
+
+#jokes section, #jokes article, #intro section, header {
+  display: flex;
+}

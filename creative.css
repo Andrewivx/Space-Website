@@ -1,0 +1,38 @@
+/*
+  Andrew Yu
+  4/12/2022
+  Section AH Marina and Allan
+  this is the creative.css page that provides style to the creative
+  portion of the space.html page, it changes the background of the section
+  as well as how the images are displayed, finally it changes the padding
+  and margins to make the formatting of the text better - also changes text colors
+  of certain parts
+*/
+#creative {
+  background-color: bisque;
+  font-variant: small-caps;
+}
+
+#creative img {
+  width: 20cm;
+  border-radius: 300%;
+  border-color: brown;
+}
+
+#creative article, #creative p {
+  text-decoration: wavy;
+  font-weight: 800;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#thai {
+  color: green;
+}
